@@ -1,0 +1,18 @@
+model_name: LogLinear
+dataset: sst
+method: IG
+n_features: 2000
+batch_size: 100
+learning_rate: 0.01
+epoch: 8
+
+epoch 0 finished with loss 10402.88035019681, valid acc 0.373536299765808
+epoch 1 finished with loss 9938.784416922063, valid acc 0.3747072599531616
+epoch 2 finished with loss 9571.624195765777, valid acc 0.36768149882903983
+epoch 3 finished with loss 9277.034760403658, valid acc 0.3659250585480094
+epoch 4 finished with loss 9031.407442848868, valid acc 0.3618266978922717
+epoch 5 finished with loss 8820.680628710626, valid acc 0.35772833723653397
+epoch 6 finished with loss 8636.13644336048, valid acc 0.36007025761124123
+epoch 7 finished with loss 8472.006681214683, valid acc 0.3559718969555035
+
+test result: acc 0.3769230769230769, F1 0.33725472286815766

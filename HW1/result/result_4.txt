@@ -1,0 +1,9 @@
+model_name: NaiveBayes
+dataset: yelp
+method: DF
+n_features: 5000
+batch_size: 1000
+learning_rate: 0.001
+epoch: 1
+
+test result: acc 0.2014, F1 0.17366845793809033

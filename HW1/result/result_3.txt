@@ -1,0 +1,16 @@
+model_name: LogLinear
+dataset: yelp
+method: DF
+n_features: 2000
+batch_size: 1000
+learning_rate: 0.001
+epoch: 1
+
+step 100, loss 599176.1239167742
+step 200, loss 581303.173015707
+step 300, loss 564599.9687754493
+step 400, loss 556173.2054295075
+step 500, loss 553447.1790081492
+epoch 0 finished with loss 555068.7986484402, valid acc 0.5880076923076923
+
+test result: acc 0.54994, F1 0.5387997454375645

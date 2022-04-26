@@ -1,0 +1,9 @@
+model_name: NaiveBayes
+dataset: sst
+method: IG
+n_features: 200
+batch_size: 1000
+learning_rate: 0.001
+epoch: 1
+
+test result: acc 0.22895927601809954, F1 0.16103257263649945

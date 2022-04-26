@@ -1,0 +1,18 @@
+model_name: LogLinear
+dataset: sst
+method: DF
+n_features: 5000
+batch_size: 100
+learning_rate: 0.01
+epoch: 8
+
+epoch 0 finished with loss 10392.014244709215, valid acc 0.39695550351288056
+epoch 1 finished with loss 9812.155181585462, valid acc 0.39285714285714285
+epoch 2 finished with loss 9344.750938143217, valid acc 0.39344262295081966
+epoch 3 finished with loss 8964.766296310167, valid acc 0.3940281030444965
+epoch 4 finished with loss 8644.441107213224, valid acc 0.3875878220140515
+epoch 5 finished with loss 8367.198224156527, valid acc 0.3834894613583138
+epoch 6 finished with loss 8122.637547565984, valid acc 0.3840749414519906
+epoch 7 finished with loss 7903.797583532104, valid acc 0.3799765807962529
+
+test result: acc 0.3990950226244344, F1 0.35194166010374933
